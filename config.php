@@ -2,15 +2,15 @@
 return array(
     'server'   => 'irc.freenode.org',
     'port'     => 6667,
-    'name'     => 'phpbot',
+    'name'     => 'skylark7',
     'password' => '',
-    'nick'     => 'phpbot',
+    'nick'     => 'skylark7',
     'channels' => array(
-        '#wildphp',
+        '#sevenlabs',
     ),
-    'timezone' => 'America/New_York',
+    'timezone' => 'America/Chicago',
     'max_reconnects' => 1,
-    'prefix'         => '!',
+    'prefix'         => '.',
     'log' => array(
         'file'       => 'log', // No file extension!
         'dir'        => ROOT_DIR . '/logs',
@@ -19,7 +19,7 @@ return array(
         // This will not log any other output, so this is not useful for debugging.
         // This is particularly useful if you use public logs.
         // Can contain multiple channels.
-        'filter'     => array('#wildphp'),
+        //'filter'     => array('#sevenlabs'),
     ),
     'commands'       => array(
         'Command\Say'     => array(),
@@ -32,6 +32,8 @@ return array(
         'Command\Poke'    => array(),
         'Command\Topic'   => array(),
         'Command\Join'    => array(),
+        'Command\Rejoin'  => array(),
+        'Command\Ai'      => array(),
         'Command\Part'    => array(),
         'Command\Timeout' => array(),
         'Command\Quit'    => array(),
@@ -44,6 +46,6 @@ return array(
         'Listener\Youtube' => array(),
     ),
     'hosts' => array(
-        'Add trusted hosts in here. Example: example@example.com if no ident server ~example@example.com',
+        '~SE7EN@157.56.30.38',
     ),
 );
