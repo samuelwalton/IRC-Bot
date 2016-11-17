@@ -75,10 +75,11 @@ class Ai extends \Library\IRC\Command\Base {
         $response = $this->fetch("http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=" . urlencode($strRequest) . "&format=json");
 
         $jsonResponse = json_decode($response);
-
+	
         if ($jsonResponse) {
+           shell_exec("espeak -ven+f3 -k5 -s150 \"$jsonResponse->botsay\" -a180 ");
            return $jsonResponse->botsay;
-        }
+	}
 
         return null;
     }

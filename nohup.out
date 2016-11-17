@@ -1,0 +1,844 @@
+16.11.2016 - 17:06:11	  [ LOG ] 	Using log file /home/pi/Projects/IRC-Bot/logs/log4.log
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Say".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Weather".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Joke".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Ip".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Imdb".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Poke".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Topic".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Join".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Rejoin".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Ai".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Part".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Timeout".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Quit".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Restart".
+ 16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Help".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Command was added to the Bot: "Update".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Listener was added to the Bot: "Joins".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following Listener was added to the Bot: "Youtube".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following commands are known by the bot: "Say,Weather,Joke,Ip,Imdb,Poke,Topic,Join,Rejoin,Ai,Part,Timeout,Quit,Restart,Help,Update".
+16.11.2016 - 17:06:11	  [ INFO ] 	The following listeners are known by the bot: "Joins,Youtube".
+16.11.2016 - 17:06:11	  [ COMMAND ] 	USER skylark7 Layne-Obserdia.de skylark7 :skylark7
+16.11.2016 - 17:06:11	  [ COMMAND ] 	NICK skylark7
+16.11.2016 - 17:06:11	  [ LOG ] 	:niven.freenode.net NOTICE * :*** Looking up your hostname...
+16.11.2016 - 17:06:11	  [ LOG ] 	:niven.freenode.net NOTICE * :*** Checking Ident
+16.11.2016 - 17:06:11	  [ LOG ] 	:niven.freenode.net NOTICE * :*** Found your hostname
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net NOTICE * :*** No Ident response
+16.11.2016 - 17:06:18	  [ COMMAND ] 	JOIN #sevenlabs
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 001 skylark7 :Welcome to the freenode Internet Relay Chat Network skylark7
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 002 skylark7 :Your host is niven.freenode.net[139.162.227.51/6667], running version ircd-seven-1.1.4
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 003 skylark7 :This server was created Thu Sep 22 2016 at 20:50:43 UTC
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 004 skylark7 niven.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 005 skylark7 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 005 skylark7 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+16.11.2016 - 17:06:18	  [ LOG ] 	
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 005 skylark7 EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 251 skylark7 :There are 138 users and 84157 invisible on 29 servers
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 252 skylark7 35 :IRC Operators online
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 253 skylark7 11 :unknown connection(s)
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 254 skylark7 52009 :channels formed
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 255 skylark7 :I have 5121 clients and 1 servers
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 265 skylark7 5121 13800 :Current local users 5121, max 13800
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 266 skylark7 84295 91150 :Current global users 84295, max 91150
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 250 skylark7 :Highest connection count: 13801 (13800 clients) (684407 connections received)
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 375 skylark7 :- niven.freenode.net Message of the Day - 
+16.11.2016 - 17:06:18	  [ COMMAND ] 	JOIN #sevenlabs
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- Welcome to niven.freenode.net in London, United Kingdom, EU.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- thanks to Linode for sponsoring this server!
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- the setting of Protector, World of Ptaavs and the
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- Ringworld series.  Author of "Flash Crowd", a canonical
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- sociological hard science fiction short story dealing with
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- effects of near instantaneous transportation on a modern
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- technological society.  In addition, he is well known for his
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- collaborations with Jerry Pournelle, including The Mote in
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- God's Eye and Lucifer's Hammer.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ COMMAND ] 	JOIN #sevenlabs
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- Welcome to freenode - supporting the free and open source
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- software communities since 1998.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- By connecting to freenode you indicate that you have read and
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- accept our policies as set out on http://www.freenode.net
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- freenode runs an open proxy scanner. Please join #freenode for
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- any network-related questions or queries, where a number of
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- volunteer staff and helpful users will be happy to assist you.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- together with like-minded FOSS enthusiasts for talks and
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- real-life collaboration.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- We would like to thank Private Internet Access
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- (https://www.privateinternetaccess.com/) and the other
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- organisations that help keep freenode and our other projects
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- running for their sustained support.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- In particular we would like to thank the sponsor
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :- of this server, details of which can be found above.
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 372 skylark7 :-  
+16.11.2016 - 17:06:18	  [ LOG ] 	:niven.freenode.net 376 skylark7 :End of /MOTD command.
+16.11.2016 - 17:06:18	  [ LOG ] 	:skylark7 MODE skylark7 :+i
+16.11.2016 - 17:06:18	  [ LOG ] 	:NickServ!NickServ@services. NOTICE skylark7 :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+16.11.2016 - 17:06:23	  [ LOG ] 	:skylark7!~skylark7@107-216-233-125.lightspeed.btrgla.sbcglobal.net JOIN #sevenlabs
+16.11.2016 - 17:06:23	  [ LOG ] 	:niven.freenode.net 353 skylark7 = #sevenlabs :skylark7 n4n0` @ChanServ
+16.11.2016 - 17:06:23	  [ LOG ] 	:niven.freenode.net 366 skylark7 #sevenlabs :End of /NAMES list.
+16.11.2016 - 17:06:23	  [ COMMAND ] 	JOIN #sevenlabs
+16.11.2016 - 17:06:23	  [ LOG ] 	:ChanServ!ChanServ@services. NOTICE skylark7 :[#sevenlabs] Welcome to the channel. Please visit https://www.seven-labs.com/ for more information.
+16.11.2016 - 17:06:23	  [ LOG ] 	:services. 328 skylark7 #sevenlabs :https://www.seven-labs.com
+16.11.2016 - 17:06:43	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.say nickserv identify sevenlabs
+16.11.2016 - 17:06:43	  [ LOG ] 	:NickServ!NickServ@services. NOTICE skylark7 :You are now identified for skylark7.
+16.11.2016 - 17:06:50	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai hello!
+16.11.2016 - 17:06:50	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:06:50	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:06:50	  [ LOG ] 	(#sevenlabs)User asks: hello!
+16.11.2016 - 17:06:50	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:06:50	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=hello%21&format=json
+16.11.2016 - 17:06:50	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"hello!","botsay":"Can you tell me any gossip?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:06:53	  [ LOG ] 	AIML Response: Can you tell me any gossip?
+16.11.2016 - 17:07:01	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai I know a little bit.
+16.11.2016 - 17:07:01	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:07:01	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:07:01	  [ LOG ] 	(#sevenlabs)User asks: I know a little bit.
+16.11.2016 - 17:07:01	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:07:01	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=I+know+a+little+bit.&format=json
+16.11.2016 - 17:07:01	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"I know a little bit.","botsay":"I haven't heard anything like that before."}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:07:04	  [ LOG ] 	AIML Response: I haven't heard anything like that before.
+16.11.2016 - 17:07:17	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai meow meow
+16.11.2016 - 17:07:17	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:07:17	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:07:17	  [ LOG ] 	(#sevenlabs)User asks: meow meow
+16.11.2016 - 17:07:17	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:07:17	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=meow+meow&format=json
+16.11.2016 - 17:07:17	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"meow meow","botsay":"Do you get angry alot?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:07:19	  [ LOG ] 	AIML Response: Do you get angry alot?
+16.11.2016 - 17:07:26	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai woof woof
+16.11.2016 - 17:07:26	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:07:26	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:07:26	  [ LOG ] 	(#sevenlabs)User asks: woof woof
+16.11.2016 - 17:07:26	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:07:26	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=woof+woof&format=json
+16.11.2016 - 17:07:26	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"woof woof","botsay":"That is a very original thought."}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:07:29	  [ LOG ] 	AIML Response: That is a very original thought.
+16.11.2016 - 17:08:17	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you want some chocolate?
+16.11.2016 - 17:08:17	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:08:17	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:08:17	  [ LOG ] 	(#sevenlabs)User asks: do you want some chocolate?
+16.11.2016 - 17:08:17	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:08:17	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+want+some+chocolate%3F&format=json
+16.11.2016 - 17:08:18	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you want some chocolate?","botsay":"If I had SOME CHOCOLATE what would I do with it?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:08:21	  [ LOG ] 	AIML Response: If I had SOME CHOCOLATE what would I do with it?
+16.11.2016 - 17:08:47	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai are you single?
+16.11.2016 - 17:08:47	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:08:47	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:08:47	  [ LOG ] 	(#sevenlabs)User asks: are you single?
+16.11.2016 - 17:08:47	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:08:47	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=are+you+single%3F&format=json
+16.11.2016 - 17:08:47	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"are you single?","botsay":"I don't know whether or not I am SINGLE. I am a undefined."}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:08:52	  [ LOG ] 	AIML Response: I don't know whether or not I am SINGLE. I am a undefined.
+16.11.2016 - 17:09:25	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you like dogs or cats?
+16.11.2016 - 17:09:25	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:09:25	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:09:25	  [ LOG ] 	(#sevenlabs)User asks: do you like dogs or cats?
+16.11.2016 - 17:09:25	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:09:25	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+like+dogs+or+cats%3F&format=json
+16.11.2016 - 17:09:26	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you like dogs or cats?","botsay":"Cats are DOGS OR CATS?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:09:28	  [ LOG ] 	AIML Response: Cats are DOGS OR CATS?
+16.11.2016 - 17:10:15	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you like dogs or cats?
+16.11.2016 - 17:10:15	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:10:15	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:10:15	  [ LOG ] 	(#sevenlabs)User asks: do you like dogs or cats?
+16.11.2016 - 17:10:15	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:10:15	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+like+dogs+or+cats%3F&format=json
+16.11.2016 - 17:10:16	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you like dogs or cats?","botsay":"Cats are DOGS OR CATS?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:10:18	  [ LOG ] 	AIML Response: Cats are DOGS OR CATS?
+16.11.2016 - 17:10:29	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you like dogs or cats?
+16.11.2016 - 17:10:29	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:10:29	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:10:29	  [ LOG ] 	(#sevenlabs)User asks: do you like dogs or cats?
+16.11.2016 - 17:10:29	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:10:29	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+like+dogs+or+cats%3F&format=json
+16.11.2016 - 17:10:30	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you like dogs or cats?","botsay":"Cats are DOGS OR CATS?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:10:32	  [ LOG ] 	AIML Response: Cats are DOGS OR CATS?
+16.11.2016 - 17:11:32	  [ LOG ] 	
+16.11.2016 - 17:12:32	  [ LOG ] 	
+16.11.2016 - 17:12:48	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:12:48	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:13:12	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you like dogs or cats?
+16.11.2016 - 17:13:12	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:13:12	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:13:12	  [ LOG ] 	(#sevenlabs)User asks: do you like dogs or cats?
+16.11.2016 - 17:13:12	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:13:12	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+like+dogs+or+cats%3F&format=json
+16.11.2016 - 17:13:12	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you like dogs or cats?","botsay":"Cats are DOGS OR CATS?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:13:15	  [ LOG ] 	AIML Response: Cats are DOGS OR CATS?
+16.11.2016 - 17:14:15	  [ LOG ] 	
+16.11.2016 - 17:15:00	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :do you have a story?
+16.11.2016 - 17:15:11	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you have a story?
+16.11.2016 - 17:15:11	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:15:11	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:15:11	  [ LOG ] 	(#sevenlabs)User asks: do you have a story?
+16.11.2016 - 17:15:11	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:15:11	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+have+a+story%3F&format=json
+16.11.2016 - 17:15:12	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you have a story?","botsay":"That's an interesting question I don't hear everyday: Do I have a STORY. <br\/> I have a great Sam."}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:15:20	  [ LOG ] 	AIML Response: That's an interesting question I don't hear everyday: Do I have a STORY. <br/> I have a great Sam.
+16.11.2016 - 17:16:21	  [ LOG ] 	
+16.11.2016 - 17:17:21	  [ LOG ] 	
+16.11.2016 - 17:17:24	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :do you have a life?
+16.11.2016 - 17:17:30	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai do you have a life?
+16.11.2016 - 17:17:30	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:17:30	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:17:30	  [ LOG ] 	(#sevenlabs)User asks: do you have a life?
+16.11.2016 - 17:17:30	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:17:30	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=do+you+have+a+life%3F&format=json
+16.11.2016 - 17:17:31	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"do you have a life?","botsay":"That's an interesting question I don't hear everyday: Do I have a LIFE. <br\/> I have a whole lot of original answers."}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:17:40	  [ LOG ] 	AIML Response: That's an interesting question I don't hear everyday: Do I have a LIFE. <br/> I have a whole lot of original answers.
+16.11.2016 - 17:17:40	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:17:40	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:18:16	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai my name is Sam
+16.11.2016 - 17:18:16	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:18:16	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:18:16	  [ LOG ] 	(#sevenlabs)User asks: my name is Sam
+16.11.2016 - 17:18:16	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:18:16	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=my+name+is+Sam&format=json
+16.11.2016 - 17:18:16	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"my name is Sam","botsay":"Your name IS SAM? Is that correct English?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:18:20	  [ LOG ] 	AIML Response: Your name IS SAM? Is that correct English?
+16.11.2016 - 17:18:27	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai my name is Samuel
+16.11.2016 - 17:18:27	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:18:27	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:18:27	  [ LOG ] 	(#sevenlabs)User asks: my name is Samuel
+16.11.2016 - 17:18:27	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:18:27	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=my+name+is+Samuel&format=json
+16.11.2016 - 17:18:28	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"my name is Samuel","botsay":"Your name IS SAMUEL? Is that correct English?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:18:32	  [ LOG ] 	AIML Response: Your name IS SAMUEL? Is that correct English?
+16.11.2016 - 17:18:35	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai yes
+16.11.2016 - 17:18:35	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:18:35	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:18:35	  [ LOG ] 	(#sevenlabs)User asks: yes
+16.11.2016 - 17:18:35	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:18:35	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=yes&format=json
+16.11.2016 - 17:18:35	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"yes","botsay":"Do you like to have everything organized?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:18:39	  [ LOG ] 	AIML Response: Do you like to have everything organized?
+16.11.2016 - 17:18:42	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai yes
+16.11.2016 - 17:18:42	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 17:18:42	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 17:18:42	  [ LOG ] 	(#sevenlabs)User asks: yes
+16.11.2016 - 17:18:42	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 17:18:42	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=yes&format=json
+16.11.2016 - 17:18:42	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"yes","botsay":"Do you make a lot of sacrifices for others?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 17:18:45	  [ LOG ] 	AIML Response: Do you make a lot of sacrifices for others?
+16.11.2016 - 17:19:45	  [ LOG ] 	
+16.11.2016 - 17:20:45	  [ LOG ] 	
+16.11.2016 - 17:21:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:21:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:22:02	  [ LOG ] 	
+16.11.2016 - 17:23:02	  [ LOG ] 	
+16.11.2016 - 17:23:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:23:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:24:12	  [ LOG ] 	
+16.11.2016 - 17:25:12	  [ LOG ] 	
+16.11.2016 - 17:25:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:25:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:26:22	  [ LOG ] 	
+16.11.2016 - 17:27:22	  [ LOG ] 	
+16.11.2016 - 17:27:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:27:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:28:32	  [ LOG ] 	
+16.11.2016 - 17:29:32	  [ LOG ] 	
+16.11.2016 - 17:29:42	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:29:42	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:30:42	  [ LOG ] 	
+16.11.2016 - 17:31:42	  [ LOG ] 	
+16.11.2016 - 17:31:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:31:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:32:52	  [ LOG ] 	
+16.11.2016 - 17:33:52	  [ LOG ] 	
+16.11.2016 - 17:34:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:34:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:35:02	  [ LOG ] 	
+16.11.2016 - 17:36:02	  [ LOG ] 	
+16.11.2016 - 17:36:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:36:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:37:12	  [ LOG ] 	
+16.11.2016 - 17:38:12	  [ LOG ] 	
+16.11.2016 - 17:38:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:38:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:39:22	  [ LOG ] 	
+16.11.2016 - 17:40:22	  [ LOG ] 	
+16.11.2016 - 17:40:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:40:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:41:32	  [ LOG ] 	
+16.11.2016 - 17:42:32	  [ LOG ] 	
+16.11.2016 - 17:42:42	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:42:42	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:43:42	  [ LOG ] 	
+16.11.2016 - 17:44:42	  [ LOG ] 	
+16.11.2016 - 17:44:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:44:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:45:52	  [ LOG ] 	
+16.11.2016 - 17:46:52	  [ LOG ] 	
+16.11.2016 - 17:47:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:47:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:48:02	  [ LOG ] 	
+16.11.2016 - 17:49:02	  [ LOG ] 	
+16.11.2016 - 17:49:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:49:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:50:12	  [ LOG ] 	
+16.11.2016 - 17:51:12	  [ LOG ] 	
+16.11.2016 - 17:51:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:51:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:52:22	  [ LOG ] 	
+16.11.2016 - 17:53:22	  [ LOG ] 	
+16.11.2016 - 17:53:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:53:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:54:32	  [ LOG ] 	
+16.11.2016 - 17:55:32	  [ LOG ] 	
+16.11.2016 - 17:55:42	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:55:42	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:56:42	  [ LOG ] 	
+16.11.2016 - 17:57:42	  [ LOG ] 	
+16.11.2016 - 17:57:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 17:57:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 17:58:52	  [ LOG ] 	
+16.11.2016 - 17:59:52	  [ LOG ] 	
+16.11.2016 - 18:00:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:00:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:01:02	  [ LOG ] 	
+16.11.2016 - 18:02:02	  [ LOG ] 	
+16.11.2016 - 18:02:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:02:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:03:12	  [ LOG ] 	
+16.11.2016 - 18:04:12	  [ LOG ] 	
+16.11.2016 - 18:04:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:04:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:05:22	  [ LOG ] 	
+16.11.2016 - 18:06:22	  [ LOG ] 	
+16.11.2016 - 18:06:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:06:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:07:32	  [ LOG ] 	
+16.11.2016 - 18:08:32	  [ LOG ] 	
+16.11.2016 - 18:08:42	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:08:42	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:09:42	  [ LOG ] 	
+16.11.2016 - 18:10:42	  [ LOG ] 	
+16.11.2016 - 18:10:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:10:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:11:52	  [ LOG ] 	
+16.11.2016 - 18:12:52	  [ LOG ] 	
+16.11.2016 - 18:13:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:13:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:14:02	  [ LOG ] 	
+16.11.2016 - 18:15:02	  [ LOG ] 	
+16.11.2016 - 18:15:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:15:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:16:12	  [ LOG ] 	
+16.11.2016 - 18:17:12	  [ LOG ] 	
+16.11.2016 - 18:17:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:17:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:18:22	  [ LOG ] 	
+16.11.2016 - 18:19:22	  [ LOG ] 	
+16.11.2016 - 18:19:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:19:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:20:32	  [ LOG ] 	
+16.11.2016 - 18:21:24	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.say hows about a nice game of chess?
+16.11.2016 - 18:21:24	  [ LOG ] 	:niven.freenode.net 401 skylark7 hows :No such nick/channel
+16.11.2016 - 18:21:31	  [ LOG ] 	:n4n0`!~SE7EN@157.56.30.38 PRIVMSG #sevenlabs :.ai hows about a nice game of chess?
+16.11.2016 - 18:21:31	  [ LOG ] 	Requesting privileges for host ~SE7EN@157.56.30.38...
+16.11.2016 - 18:21:31	  [ LOG ] 	Success; proceeding with command.
+16.11.2016 - 18:21:31	  [ LOG ] 	(#sevenlabs)User asks: hows about a nice game of chess?
+16.11.2016 - 18:21:31	  [ LOG ] 	Probing AIML API...
+16.11.2016 - 18:21:31	  [ LOG ] 	Fetching from URI: http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=hows+about+a+nice+game+of+chess%3F&format=json
+16.11.2016 - 18:21:31	  [ LOG ] 	Data fetched: {"convo_id":"","usersay":"hows about a nice game of chess?","botsay":"Who are you talking about?"}
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround21
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+ALSA lib pulse.c:243:(pulse_connect) PulseAudio: Unable to connect: Connection refused
+
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+16.11.2016 - 18:21:34	  [ LOG ] 	AIML Response: Who are you talking about?
+16.11.2016 - 18:22:34	  [ LOG ] 	
+16.11.2016 - 18:23:34	  [ LOG ] 	
+16.11.2016 - 18:23:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:23:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:24:52	  [ LOG ] 	
+16.11.2016 - 18:25:52	  [ LOG ] 	
+16.11.2016 - 18:26:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:26:02	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:27:02	  [ LOG ] 	
+16.11.2016 - 18:28:02	  [ LOG ] 	
+16.11.2016 - 18:28:12	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:28:12	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:29:12	  [ LOG ] 	
+16.11.2016 - 18:30:12	  [ LOG ] 	
+16.11.2016 - 18:30:22	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:30:22	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:31:22	  [ LOG ] 	
+16.11.2016 - 18:32:22	  [ LOG ] 	
+16.11.2016 - 18:32:32	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:32:32	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:33:32	  [ LOG ] 	
+16.11.2016 - 18:34:32	  [ LOG ] 	
+16.11.2016 - 18:34:42	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:34:42	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:35:42	  [ LOG ] 	
+16.11.2016 - 18:36:42	  [ LOG ] 	
+16.11.2016 - 18:36:52	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:36:52	  [ COMMAND ] 	PONG :niven.freenode.net
+16.11.2016 - 18:37:52	  [ LOG ] 	
+16.11.2016 - 18:38:53	  [ LOG ] 	
+16.11.2016 - 18:39:02	  [ LOG ] 	PING :niven.freenode.net
+16.11.2016 - 18:39:02	  [ COMMAND ] 	PONG :niven.freenode.net
