@@ -24,7 +24,7 @@ return array(
     'commands'       => array(
         'Command\Say'     => array(),
         'Command\Weather' => array(
-            'yahooKey' => 'dj0yJmk9elRGYWM4MG1BZ1FTJmQ9WVdrOU9VaG1WR3hCTkcwbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD01OA--',
+            'yahooKey' => '9HfTlA4m',
         ),
         'Command\Joke'    => array(),
         'Command\Ip'      => array(),
