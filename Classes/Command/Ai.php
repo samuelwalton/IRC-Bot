@@ -54,30 +54,32 @@ class Ai extends \Library\IRC\Command\Base {
 		}
 		// http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=what%20is%20my%20name&format=xml		
 		// trim(implode( ' ', array_slice( $this->arguments, 1 ) ))
-		$TheUser = $this->source;
+		$strSource = $this->source;
+		$strHost = $this->getUserHost();
 		
 		$UserOutput = trim(implode( ' ', array_slice( $this->arguments, 0 ) ));
-		$this->bot->log("($TheUser)User asks: $UserOutput");
+		$this->bot->log("<$strSource> <$strHost> asks: $UserOutput");
 		
 		$this->bot->log("Probing AIML API...");
-		$BotResponse = $this->getResponse($UserOutput);
+		$BotResponse = $this->getResponse($UserOutput, $strHost);
 		$this->bot->log("AIML Response: $BotResponse");
 		
 		$this->connection->sendData(
             'PRIVMSG ' . $this->source .
             ' :'. $BotResponse
         );
+		
     }
     
     
-    protected function getResponse($strRequest) {
+    protected function getResponse($strRequest, $strHost) {
         
-        $response = $this->fetch("http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=&say=" . urlencode($strRequest) . "&format=json");
+        $response = $this->fetch("http://sdw.seven-labs.com/Program-O/chatbot/conversation_start.php?bot_id=1&convo_id=" . md5($strHost) . "&say=" . urlencode($strRequest) . "&format=json");
 
         $jsonResponse = json_decode($response);
 	
         if ($jsonResponse) {
-           shell_exec("espeak -ven+f3 -k5 -s150 \"$jsonResponse->botsay\" -a180 ");
+           //shell_exec("espeak -ven+f3 -k5 -s150 \"$jsonResponse->botsay\" -a180 ");
            return $jsonResponse->botsay;
 	}
 

@@ -168,20 +168,35 @@
          */
         protected function verifyUser()
         {
-            global $config;
-            // Get the host.
-            preg_match("/~([^\s]++)++/", $this->data, $hosts);
-            
-            // Check if the user has privileges.
-            $this->bot->log('Requesting privileges for host ' . $hosts[0] . '...');
-            if (!in_array($hosts[0], $config['hosts']))
-            {
-                // Nope. No access for you.
-                $this->bot->log('Failed; this host is not trusted.');
-                return false;
-            }
-            else
-                return true;
+        	global $config;
+        	// Get the host.
+        	preg_match("/~([^\s]++)++/", $this->data, $hosts);
+        
+        	// Check if the user has privileges.
+        	$this->bot->log('Requesting privileges for host ' . $hosts[0] . '...');
+        	if (!in_array($hosts[0], $config['hosts']))
+        	{
+        		// Nope. No access for you.
+        		$this->bot->log('Failed; this host is not trusted.');
+        		return false;
+        	}
+        	else
+        		return true;
+        }
+        
+        /**
+         * Gets the host requesting command.
+         *
+         */
+        protected function getUserHost()
+        {
+        	global $config;
+        	// Get the host.
+        	preg_match("/~([^\s]++)++/", $this->data, $hosts);
+        
+        	// Check if the user has privileges.
+        	$this->bot->log('Retrieved host: ' . $hosts[0] . '');
+        	return $hosts[0];
         }
 
         /**
